@@ -23,7 +23,6 @@ public class JoueurServiceimpl implements JoueurService {
     @Autowired
     private JoueurRepository joueurRepository;
 
-    private EquipeDTO equipeDTO;
 
     public ResponseEntity<String> addJoueur(JoueurDTO joueurDTO) {
         try {
